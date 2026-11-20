@@ -1,0 +1,248 @@
+[   0.0s] START id=4 mode=flood run=2 scenario=stable tx_counter=165000 warmup=60000 run_ms=300000 drain=60000 adv=5000
+[  10.0s] STATUS    parent 255, hop 255 | created 0, sent 0, relayed 0, no route 0 | received count 0, bad 0, duplicates 0
+[  20.0s] STATUS    parent 255, hop 255 | created 0, sent 0, relayed 0, no route 0 | received count 0, bad 0, duplicates 0
+[  30.1s] STATUS    parent 255, hop 255 | created 0, sent 0, relayed 0, no route 0 | received count 0, bad 0, duplicates 0
+[  40.2s] STATUS    parent 255, hop 255 | created 0, sent 0, relayed 0, no route 0 | received count 0, bad 0, duplicates 0
+[  50.3s] STATUS    parent 255, hop 255 | created 0, sent 0, relayed 0, no route 0 | received count 0, bad 0, duplicates 0
+[  60.3s] STATUS    parent 255, hop 255 | created 0, sent 0, relayed 0, no route 0 | received count 0, bad 0, duplicates 0
+[  60.5s] RELAYED   origin 5 seq 0 by broadcast
+[  61.3s] RELAYED   origin 8 seq 0 by broadcast
+[  62.1s] GEN       seq 0, accel 11.458 m/s2 (100 samples)
+[  62.2s] SENT      seq 0 by broadcast
+[  62.9s] RELAYED   origin 1 seq 0 by broadcast
+[  69.9s] RELAYED   origin 5 seq 1 by broadcast
+[  70.4s] STATUS    parent 255, hop 255 | created 1, sent 1, relayed 4, no route 0 | received count 4, bad 0, duplicates 1
+[  71.4s] RELAYED   origin 9 seq 1 by broadcast
+[  71.9s] RELAYED   origin 7 seq 2 by broadcast
+[  72.1s] RELAYED   origin 10 seq 1 by broadcast
+[  72.5s] GEN       seq 1, accel 11.458 m/s2 (100 samples)
+[  72.6s] SENT      seq 1 by broadcast
+[  78.7s] RELAYED   origin 12 seq 2 by broadcast
+[  80.5s] STATUS    parent 255, hop 255 | created 2, sent 2, relayed 8, no route 0 | received count 8, bad 0, duplicates 4
+[  81.7s] RELAYED   origin 8 seq 2 by broadcast
+[  82.1s] RELAYED   origin 9 seq 2 by broadcast
+[  82.2s] RELAYED   origin 7 seq 3 by broadcast
+[  82.8s] GEN       seq 2, accel 11.463 m/s2 (100 samples)
+[  82.9s] SENT      seq 2 by broadcast
+[  83.0s] RELAYED   origin 10 seq 2 by broadcast
+[  84.9s] RELAYED   origin 13 seq 2 by broadcast
+[  88.8s] RELAYED   origin 3 seq 2 by broadcast
+[  89.2s] RELAYED   origin 6 seq 1 by broadcast
+[  90.6s] STATUS    parent 255, hop 255 | created 3, sent 3, relayed 15, no route 0 | received count 15, bad 0, duplicates 8
+[  93.1s] GEN       seq 3, accel 11.451 m/s2 (100 samples)
+[  93.2s] SENT      seq 3 by broadcast
+[  93.5s] RELAYED   origin 10 seq 3 by broadcast
+[  94.3s] RELAYED   origin 1 seq 3 by broadcast
+[  95.7s] RELAYED   origin 13 seq 3 by broadcast
+[  99.5s] RELAYED   origin 3 seq 3 by broadcast
+[ 100.6s] STATUS    parent 255, hop 255 | created 4, sent 4, relayed 19, no route 0 | received count 20, bad 0, duplicates 8
+[ 100.7s] RELAYED   origin 6 seq 2 by broadcast
+[ 102.6s] RELAYED   origin 9 seq 4 by broadcast
+[ 102.7s] RELAYED   origin 8 seq 4 by broadcast
+[ 103.2s] GEN       seq 4, accel 11.459 m/s2 (100 samples)
+[ 103.4s] SENT      seq 4 by broadcast
+[ 105.1s] RELAYED   origin 1 seq 4 by broadcast
+[ 109.3s] RELAYED   origin 3 seq 4 by broadcast
+[ 110.0s] RELAYED   origin 6 seq 3 by broadcast
+[ 110.6s] STATUS    parent 255, hop 255 | created 5, sent 5, relayed 25, no route 0 | received count 26, bad 0, duplicates 9
+[ 110.8s] RELAYED   origin 12 seq 5 by broadcast
+[ 112.7s] RELAYED   origin 9 seq 5 by broadcast
+[ 113.2s] GEN       seq 5, accel 11.456 m/s2 (100 samples)
+[ 113.4s] SENT      seq 5 by broadcast
+[ 114.9s] RELAYED   origin 1 seq 5 by broadcast
+[ 120.7s] STATUS    parent 255, hop 255 | created 6, sent 6, relayed 28, no route 0 | received count 28, bad 0, duplicates 12
+[ 122.1s] RELAYED   origin 5 seq 6 by broadcast
+[ 123.4s] RELAYED   origin 8 seq 6 by broadcast
+[ 124.2s] GEN       seq 6, accel 11.452 m/s2 (100 samples)
+[ 124.4s] SENT      seq 6 by broadcast
+[ 124.8s] RELAYED   origin 10 seq 6 by broadcast
+[ 125.4s] RELAYED   origin 1 seq 6 by broadcast
+[ 130.7s] STATUS    parent 255, hop 255 | created 7, sent 7, relayed 32, no route 0 | received count 32, bad 0, duplicates 13
+[ 133.4s] RELAYED   origin 9 seq 7 by broadcast
+[ 133.7s] RELAYED   origin 5 seq 7 by broadcast
+[ 134.8s] GEN       seq 7, accel 11.461 m/s2 (100 samples)
+[ 135.0s] SENT      seq 7 by broadcast
+[ 135.8s] RELAYED   origin 1 seq 7 by broadcast
+[ 140.8s] STATUS    parent 255, hop 255 | created 8, sent 8, relayed 35, no route 0 | received count 35, bad 0, duplicates 15
+[ 141.2s] RELAYED   origin 6 seq 6 by broadcast
+[ 141.7s] RELAYED   origin 3 seq 7 by broadcast
+[ 142.3s] RELAYED   origin 12 seq 8 by broadcast
+[ 143.4s] RELAYED   origin 9 seq 8 by broadcast
+[ 144.8s] RELAYED   origin 8 seq 8 by broadcast
+[ 145.8s] GEN       seq 8, accel 11.455 m/s2 (100 samples)
+[ 145.9s] SENT      seq 8 by broadcast
+[ 146.0s] RELAYED   origin 10 seq 8 by broadcast
+[ 146.7s] RELAYED   origin 1 seq 8 by broadcast
+[ 149.6s] RELAYED   origin 13 seq 8 by broadcast
+[ 150.8s] STATUS    parent 255, hop 255 | created 9, sent 9, relayed 43, no route 0 | received count 43, bad 0, duplicates 17
+[ 153.5s] RELAYED   origin 5 seq 9 by broadcast
+[ 155.3s] RELAYED   origin 8 seq 9 by broadcast
+[ 155.8s] GEN       seq 9, accel 11.453 m/s2 (100 samples)
+[ 157.1s] SENT      seq 9 by broadcast
+[ 157.2s] RELAYED   origin 10 seq 9 by broadcast
+[ 157.3s] RELAYED   origin 1 seq 9 by broadcast
+[ 160.7s] RELAYED   origin 13 seq 9 by broadcast
+[ 160.9s] STATUS    parent 255, hop 255 | created 10, sent 10, relayed 48, no route 0 | received count 48, bad 0, duplicates 20
+[ 162.2s] RELAYED   origin 6 seq 8 by broadcast
+[ 163.5s] RELAYED   origin 12 seq 10 by broadcast
+[ 164.4s] RELAYED   origin 5 seq 10 by broadcast
+[ 165.6s] RELAYED   origin 8 seq 10 by broadcast
+[ 166.2s] GEN       seq 10, accel 11.457 m/s2 (100 samples)
+[ 166.3s] SENT      seq 10 by broadcast
+[ 167.2s] RELAYED   origin 1 seq 10 by broadcast
+[ 167.7s] RELAYED   origin 7 seq 11 by broadcast
+[ 170.9s] STATUS    parent 255, hop 255 | created 11, sent 11, relayed 54, no route 0 | received count 54, bad 0, duplicates 22
+[ 173.4s] RELAYED   origin 12 seq 11 by broadcast
+[ 176.1s] RELAYED   origin 8 seq 11 by broadcast
+[ 176.8s] GEN       seq 11, accel 11.450 m/s2 (100 samples)
+[ 177.0s] SENT      seq 11 by broadcast
+[ 180.9s] STATUS    parent 255, hop 255 | created 12, sent 12, relayed 56, no route 0 | received count 56, bad 0, duplicates 24
+[ 184.5s] RELAYED   origin 9 seq 12 by broadcast
+[ 185.0s] RELAYED   origin 3 seq 11 by broadcast
+[ 187.1s] GEN       seq 12, accel 11.453 m/s2 (100 samples)
+[ 187.2s] SENT      seq 12 by broadcast
+[ 188.7s] RELAYED   origin 7 seq 13 by broadcast
+[ 190.9s] STATUS    parent 255, hop 255 | created 13, sent 13, relayed 59, no route 0 | received count 59, bad 0, duplicates 26
+[ 197.3s] GEN       seq 13, accel 11.458 m/s2 (100 samples)
+[ 197.4s] SENT      seq 13 by broadcast
+[ 199.0s] RELAYED   origin 10 seq 13 by broadcast
+[ 199.2s] RELAYED   origin 1 seq 13 by broadcast
+[ 199.3s] RELAYED   origin 7 seq 14 by broadcast
+[ 201.0s] STATUS    parent 255, hop 255 | created 14, sent 14, relayed 62, no route 0 | received count 62, bad 0, duplicates 26
+[ 206.9s] RELAYED   origin 5 seq 14 by broadcast
+[ 207.1s] RELAYED   origin 8 seq 14 by broadcast
+[ 207.3s] GEN       seq 14, accel 11.458 m/s2 (100 samples)
+[ 207.4s] SENT      seq 14 by broadcast
+[ 209.5s] RELAYED   origin 1 seq 14 by broadcast
+[ 209.8s] RELAYED   origin 7 seq 15 by broadcast
+[ 211.1s] STATUS    parent 255, hop 255 | created 15, sent 15, relayed 66, no route 0 | received count 66, bad 0, duplicates 27
+[ 215.3s] RELAYED   origin 9 seq 15 by broadcast
+[ 216.0s] RELAYED   origin 3 seq 14 by broadcast
+[ 217.5s] RELAYED   origin 8 seq 15 by broadcast
+[ 217.8s] GEN       seq 15, accel 11.459 m/s2 (100 samples)
+[ 217.9s] SENT      seq 15 by broadcast
+[ 221.1s] STATUS    parent 255, hop 255 | created 16, sent 16, relayed 69, no route 0 | received count 69, bad 0, duplicates 29
+[ 227.9s] GEN       seq 16, accel 11.452 m/s2 (100 samples)
+[ 228.0s] SENT      seq 16 by broadcast
+[ 228.1s] RELAYED   origin 8 seq 16 by broadcast
+[ 230.4s] RELAYED   origin 1 seq 16 by broadcast
+[ 231.2s] STATUS    parent 255, hop 255 | created 17, sent 17, relayed 71, no route 0 | received count 72, bad 0, duplicates 32
+[ 231.3s] RELAYED   origin 7 seq 17 by broadcast
+[ 231.7s] RELAYED   origin 10 seq 16 by broadcast
+[ 234.8s] RELAYED   origin 12 seq 17 by broadcast
+[ 236.3s] RELAYED   origin 9 seq 17 by broadcast
+[ 238.0s] GEN       seq 17, accel 11.460 m/s2 (100 samples)
+[ 238.1s] SENT      seq 17 by broadcast
+[ 241.3s] STATUS    parent 255, hop 255 | created 18, sent 18, relayed 75, no route 0 | received count 75, bad 0, duplicates 33
+[ 241.9s] RELAYED   origin 10 seq 17 by broadcast
+[ 245.7s] RELAYED   origin 12 seq 18 by broadcast
+[ 246.0s] RELAYED   origin 9 seq 18 by broadcast
+[ 248.7s] GEN       seq 18, accel 11.463 m/s2 (100 samples)
+[ 248.8s] SENT      seq 18 by broadcast
+[ 248.9s] RELAYED   origin 13 seq 17 by broadcast
+[ 251.3s] STATUS    parent 255, hop 255 | created 19, sent 19, relayed 79, no route 0 | received count 79, bad 0, duplicates 34
+[ 251.6s] RELAYED   origin 7 seq 19 by broadcast
+[ 252.6s] RELAYED   origin 10 seq 18 by broadcast
+[ 256.5s] RELAYED   origin 9 seq 19 by broadcast
+[ 257.4s] RELAYED   origin 3 seq 18 by broadcast
+[ 258.0s] RELAYED   origin 6 seq 17 by broadcast
+[ 259.3s] GEN       seq 19, accel 11.450 m/s2 (100 samples)
+[ 259.4s] SENT      seq 19 by broadcast
+[ 259.6s] RELAYED   origin 13 seq 18 by broadcast
+[ 260.0s] RELAYED   origin 5 seq 19 by broadcast
+[ 260.6s] RELAYED   origin 8 seq 19 by broadcast
+[ 261.3s] STATUS    parent 255, hop 255 | created 20, sent 20, relayed 87, no route 0 | received count 87, bad 0, duplicates 40
+[ 262.0s] RELAYED   origin 7 seq 20 by broadcast
+[ 266.7s] RELAYED   origin 9 seq 20 by broadcast
+[ 267.3s] RELAYED   origin 12 seq 20 by broadcast
+[ 268.3s] RELAYED   origin 6 seq 18 by broadcast
+[ 269.8s] GEN       seq 20, accel 11.453 m/s2 (100 samples)
+[ 269.9s] SENT      seq 20 by broadcast
+[ 270.4s] RELAYED   origin 13 seq 19 by broadcast
+[ 270.9s] RELAYED   origin 1 seq 20 by broadcast
+[ 271.0s] RELAYED   origin 5 seq 20 by broadcast
+[ 271.4s] RELAYED   origin 8 seq 20 by broadcast
+[ 271.4s] STATUS    parent 255, hop 255 | created 21, sent 21, relayed 95, no route 0 | received count 95, bad 0, duplicates 43
+[ 278.6s] RELAYED   origin 3 seq 20 by broadcast
+[ 280.3s] GEN       seq 21, accel 11.460 m/s2 (100 samples)
+[ 281.6s] SENT      seq 21 by broadcast
+[ 281.9s] STATUS    parent 255, hop 255 | created 22, sent 22, relayed 96, no route 0 | received count 97, bad 0, duplicates 44
+[ 282.2s] RELAYED   origin 5 seq 21 by broadcast
+[ 288.7s] RELAYED   origin 12 seq 22 by broadcast
+[ 289.2s] RELAYED   origin 3 seq 21 by broadcast
+[ 290.6s] GEN       seq 22, accel 11.457 m/s2 (100 samples)
+[ 291.0s] SENT      seq 22 by broadcast
+[ 291.7s] STATUS    parent 255, hop 255 | created 23, sent 23, relayed 99, no route 0 | received count 100, bad 0, duplicates 45
+[ 291.7s] RELAYED   origin 13 seq 21 by broadcast
+[ 292.1s] RELAYED   origin 5 seq 22 by broadcast
+[ 292.2s] RELAYED   origin 1 seq 22 by broadcast
+[ 292.5s] RELAYED   origin 8 seq 22 by broadcast
+[ 298.7s] RELAYED   origin 12 seq 23 by broadcast
+[ 299.1s] RELAYED   origin 3 seq 22 by broadcast
+[ 300.2s] RELAYED   origin 6 seq 21 by broadcast
+[ 301.1s] GEN       seq 23, accel 11.460 m/s2 (100 samples)
+[ 301.2s] SENT      seq 23 by broadcast
+[ 301.7s] STATUS    parent 255, hop 255 | created 24, sent 24, relayed 106, no route 0 | received count 106, bad 0, duplicates 48
+[ 302.8s] RELAYED   origin 1 seq 23 by broadcast
+[ 302.9s] RELAYED   origin 5 seq 23 by broadcast
+[ 303.1s] RELAYED   origin 8 seq 23 by broadcast
+[ 303.3s] RELAYED   origin 13 seq 22 by broadcast
+[ 305.2s] RELAYED   origin 7 seq 24 by broadcast
+[ 305.7s] RELAYED   origin 10 seq 23 by broadcast
+[ 308.3s] RELAYED   origin 9 seq 24 by broadcast
+[ 311.6s] GEN       seq 24, accel 11.450 m/s2 (100 samples)
+[ 311.7s] SENT      seq 24 by broadcast
+[ 311.8s] STATUS    parent 255, hop 255 | created 25, sent 25, relayed 113, no route 0 | received count 113, bad 0, duplicates 52
+[ 313.2s] RELAYED   origin 1 seq 24 by broadcast
+[ 313.8s] RELAYED   origin 13 seq 23 by broadcast
+[ 315.7s] RELAYED   origin 7 seq 25 by broadcast
+[ 316.7s] RELAYED   origin 10 seq 24 by broadcast
+[ 321.0s] RELAYED   origin 12 seq 25 by broadcast
+[ 321.8s] GEN       seq 25, accel 11.462 m/s2 (100 samples)
+[ 321.9s] STATUS    parent 255, hop 255 | created 26, sent 25, relayed 118, no route 0 | received count 118, bad 0, duplicates 54
+[ 322.0s] SENT      seq 25 by broadcast
+[ 323.6s] RELAYED   origin 8 seq 25 by broadcast
+[ 323.8s] RELAYED   origin 1 seq 25 by broadcast
+[ 324.4s] RELAYED   origin 13 seq 24 by broadcast
+[ 326.1s] RELAYED   origin 7 seq 26 by broadcast
+[ 327.4s] RELAYED   origin 10 seq 25 by broadcast
+[ 328.3s] RELAYED   origin 9 seq 26 by broadcast
+[ 331.4s] RELAYED   origin 6 seq 24 by broadcast
+[ 332.0s] STATUS    parent 255, hop 255 | created 26, sent 26, relayed 125, no route 0 | received count 125, bad 0, duplicates 59
+[ 332.7s] GEN       seq 26, accel 11.461 m/s2 (100 samples)
+[ 332.8s] SENT      seq 26 by broadcast
+[ 334.3s] RELAYED   origin 1 seq 26 by broadcast
+[ 335.6s] RELAYED   origin 13 seq 25 by broadcast
+[ 336.9s] RELAYED   origin 7 seq 27 by broadcast
+[ 337.7s] RELAYED   origin 10 seq 26 by broadcast
+[ 342.0s] STATUS    parent 255, hop 255 | created 27, sent 27, relayed 129, no route 0 | received count 129, bad 0, duplicates 60
+[ 343.4s] GEN       seq 27, accel 11.460 m/s2 (100 samples)
+[ 343.5s] SENT      seq 27 by broadcast
+[ 344.7s] RELAYED   origin 5 seq 27 by broadcast
+[ 344.8s] RELAYED   origin 1 seq 27 by broadcast
+[ 346.3s] RELAYED   origin 13 seq 26 by broadcast
+[ 347.0s] RELAYED   origin 7 seq 28 by broadcast
+[ 348.0s] RELAYED   origin 10 seq 27 by broadcast
+[ 351.9s] RELAYED   origin 12 seq 28 by broadcast
+[ 352.0s] STATUS    parent 255, hop 255 | created 28, sent 28, relayed 135, no route 0 | received count 136, bad 0, duplicates 63
+[ 352.1s] RELAYED   origin 3 seq 27 by broadcast
+[ 352.5s] RELAYED   origin 6 seq 26 by broadcast
+[ 353.6s] GEN       seq 28, accel 11.459 m/s2 (100 samples)
+[ 353.7s] SENT      seq 28 by broadcast
+[ 355.0s] RELAYED   origin 5 seq 28 by broadcast
+[ 355.4s] RELAYED   origin 8 seq 28 by broadcast
+[ 355.7s] RELAYED   origin 1 seq 28 by broadcast
+[ 357.1s] RELAYED   origin 13 seq 27 by broadcast
+[ 357.3s] RELAYED   origin 7 seq 29 by broadcast
+[ 358.0s] RELAYED   origin 10 seq 28 by broadcast
+[ 359.0s] RELAYED   origin 9 seq 29 by broadcast
+[ 362.0s] STATUS    parent 255, hop 255 | created 29, sent 29, relayed 144, no route 0 | received count 144, bad 0, duplicates 67
+[ 362.3s] RELAYED   origin 12 seq 29 by broadcast
+[ 362.5s] SENSOR    measurement window over, no more packets
+[ 372.1s] STATUS    parent 255, hop 255 | created 29, sent 29, relayed 145, no route 0 | received count 145, bad 0, duplicates 69
+[ 382.1s] STATUS    parent 255, hop 255 | created 29, sent 29, relayed 145, no route 0 | received count 145, bad 0, duplicates 69
+[ 392.2s] STATUS    parent 255, hop 255 | created 29, sent 29, relayed 145, no route 0 | received count 145, bad 0, duplicates 69
+[ 402.3s] STATUS    parent 255, hop 255 | created 29, sent 29, relayed 145, no route 0 | received count 145, bad 0, duplicates 69
+[ 412.3s] STATUS    parent 255, hop 255 | created 29, sent 29, relayed 145, no route 0 | received count 145, bad 0, duplicates 69
+[ 420.1s] SUMMARY   written
+[ 422.4s] STATUS    parent 255, hop 255 | created 29, sent 29, relayed 145, no route 0 | received count 145, bad 0, duplicates 69

@@ -1,0 +1,354 @@
+[   0.0s] START id=4 mode=dv run=3 scenario=stable tx_counter=160000 warmup=60000 run_ms=300000 drain=60000 adv=5000
+[   2.8s] NEIGHBOR  9 appeared: hop 255, rssi -87
+[   3.6s] NEIGHBOR  0 appeared: hop 0, rssi -84
+[   3.7s] ROUTE     changed: parent 255 -> 0, hop 1, rssi -84.0 | reason: first parent (adv from 0)
+[  10.1s] STATUS    parent 0, hop 1 | created 0, sent 0, relayed 0, no route 0 | received count 3, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -84 (avg -84.0), heard 6s ago
+             neighbor 9: hop 2, parent 4, rssi -80 (avg -84.9), heard 2s ago
+[  11.4s] NEIGHBOR  7 appeared: hop 1, rssi -84
+[  20.1s] STATUS    parent 0, hop 1 | created 0, sent 0, relayed 0, no route 0 | received count 6, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -86 (avg -84.6), heard 5s ago
+             neighbor 7: hop 1, parent 0, rssi -87 (avg -84.9), heard 3s ago
+             neighbor 9: hop 2, parent 4, rssi -80 (avg -84.9), heard 12s ago
+[  23.8s] NEIGHBOR  9 lost (no advertisement for 15 s)
+[  24.5s] NEIGHBOR  8 appeared: hop 3, rssi -95
+[  26.2s] NEIGHBOR  6 appeared: hop 4, rssi -88
+[  30.1s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[  30.1s] ROUTE     changed: parent 0 -> 7, hop 2, rssi -85.8 | reason: old parent lost (expired [0])
+[  30.3s] STATUS    parent 7, hop 2 | created 0, sent 0, relayed 0, no route 0 | received count 9, bad 0, duplicates 0
+             neighbor 6: hop 4, parent 12, rssi -88 (avg -88.0), heard 4s ago
+             neighbor 7: hop 1, parent 0, rssi -88 (avg -85.8), heard 3s ago
+             neighbor 8: hop 3, parent 10, rssi -95 (avg -95.0), heard 5s ago
+[  31.1s] NEIGHBOR  0 appeared: hop 0, rssi -91
+[  32.6s] ROUTE     changed: parent 7 -> 6, hop 5, rssi -88.0 | reason: old parent lost (adv from 7)
+[  36.9s] ROUTE     changed: parent 6 -> 6, hop 4, rssi -88.3 | reason: same parent (adv from 6)
+[  40.3s] NEIGHBOR  8 lost (no advertisement for 15 s)
+[  40.4s] STATUS    parent 6, hop 4 | created 0, sent 0, relayed 0, no route 0 | received count 12, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -91 (avg -91.0), heard 9s ago
+             neighbor 6: hop 3, parent 7, rssi -89 (avg -88.3), heard 3s ago
+             neighbor 7: hop 2, parent 4, rssi -86 (avg -85.9), heard 7s ago
+[  43.5s] NEIGHBOR  5 appeared: hop 1, rssi -87
+[  43.6s] ROUTE     changed: parent 6 -> 5, hop 2, rssi -87.0 | reason: shorter route (adv from 5)
+[  45.1s] NEIGHBOR  13 appeared: hop 3, rssi -92
+[  46.4s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[  47.1s] NEIGHBOR  0 appeared: hop 0, rssi -85
+[  47.2s] ROUTE     changed: parent 5 -> 0, hop 1, rssi -85.0 | reason: shorter route (adv from 0)
+[  49.5s] NEIGHBOR  9 appeared: hop 2, rssi -87
+[  50.5s] STATUS    parent 0, hop 1 | created 0, sent 0, relayed 0, no route 0 | received count 19, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -85 (avg -85.0), heard 3s ago
+             neighbor 5: hop 1, parent 0, rssi -85 (avg -86.4), heard 1s ago
+             neighbor 6: hop 3, parent 7, rssi -89 (avg -88.5), heard 7s ago
+             neighbor 7: hop 3, parent 9, rssi -85 (avg -85.6), heard 7s ago
+             neighbor 9: hop 2, parent 5, rssi -87 (avg -87.0), heard 1s ago
+             neighbor 13: hop 3, parent 12, rssi -92 (avg -92.0), heard 5s ago
+[  58.4s] NEIGHBOR  6 lost (no advertisement for 15 s)
+[  60.4s] NEIGHBOR  13 lost (no advertisement for 15 s)
+[  60.7s] STATUS    parent 0, hop 1 | created 0, sent 0, relayed 0, no route 0 | received count 22, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -87 (avg -85.6), heard 3s ago
+             neighbor 5: hop 1, parent 0, rssi -85 (avg -86.4), heard 12s ago
+             neighbor 7: hop 1, parent 0, rssi -84 (avg -84.8), heard 2s ago
+             neighbor 9: hop 2, parent 5, rssi -87 (avg -87.0), heard 11s ago
+[  62.1s] GEN       seq 0, accel 11.482 m/s2 (100 samples)
+[  62.3s] SENT      seq 0 via 0
+[  64.6s] NEIGHBOR  9 lost (no advertisement for 15 s)
+[  70.6s] STATUS    parent 0, hop 1 | created 1, sent 1, relayed 0, no route 0 | received count 24, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -87 (avg -85.6), heard 13s ago
+             neighbor 5: hop 1, parent 0, rssi -86 (avg -86.3), heard 6s ago
+             neighbor 7: hop 2, parent 6, rssi -87 (avg -85.5), heard 1s ago
+[  72.8s] GEN       seq 1, accel 11.481 m/s2 (100 samples)
+[  72.9s] SENT      seq 1 via 0
+[  73.2s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[  73.3s] ROUTE     changed: parent 0 -> 5, hop 2, rssi -86.3 | reason: old parent lost (expired [0])
+[  80.2s] ROUTE     changed: parent 5 -> 7, hop 3, rssi -85.0 | reason: old parent lost (adv from 7)
+[  80.4s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[  80.5s] NEIGHBOR  5 appeared: hop 1, rssi -84
+[  80.5s] ROUTE     changed: parent 7 -> 5, hop 2, rssi -84.0 | reason: shorter route (adv from 5)
+[  80.7s] STATUS    parent 5, hop 2 | created 2, sent 2, relayed 0, no route 0 | received count 26, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -84 (avg -84.0), heard 0s ago
+             neighbor 7: hop 2, parent 10, rssi -84 (avg -85.0), heard 0s ago
+[  83.7s] GEN       seq 2, accel 11.478 m/s2 (100 samples)
+[  83.8s] SENT      seq 2 via 5
+[  90.7s] STATUS    parent 5, hop 2 | created 3, sent 3, relayed 0, no route 0 | received count 28, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -87 (avg -84.9), heard 5s ago
+             neighbor 7: hop 1, parent 0, rssi -80 (avg -83.5), heard 0s ago
+[  93.8s] GEN       seq 3, accel 11.483 m/s2 (100 samples)
+[  94.0s] SENT      seq 3 via 5
+[  95.2s] NEIGHBOR  0 appeared: hop 0, rssi -87
+[  95.3s] ROUTE     changed: parent 5 -> 0, hop 1, rssi -87.0 | reason: shorter route (adv from 0)
+[ 100.8s] STATUS    parent 0, hop 1 | created 4, sent 4, relayed 0, no route 0 | received count 30, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -87 (avg -87.0), heard 5s ago
+             neighbor 5: hop 1, parent 0, rssi -87 (avg -84.9), heard 15s ago
+             neighbor 7: hop 1, parent 0, rssi -83 (avg -83.4), heard 4s ago
+[ 101.3s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 104.0s] GEN       seq 4, accel 11.476 m/s2 (100 samples)
+[ 104.1s] SENT      seq 4 via 0
+[ 110.5s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 110.6s] ROUTE     changed: parent 0 -> 7, hop 2, rssi -82.7 | reason: old parent lost (expired [0])
+[ 110.7s] NEIGHBOR  0 appeared: hop 0, rssi -90
+[ 110.8s] ROUTE     changed: parent 7 -> 0, hop 1, rssi -90.0 | reason: shorter route (adv from 0)
+[ 110.9s] STATUS    parent 0, hop 1 | created 5, sent 5, relayed 0, no route 0 | received count 32, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -90 (avg -90.0), heard 0s ago
+             neighbor 7: hop 1, parent 0, rssi -81 (avg -82.7), heard 9s ago
+[ 112.1s] NEIGHBOR  5 appeared: hop 1, rssi -84
+[ 113.4s] NEIGHBOR  9 appeared: hop 2, rssi -89
+[ 114.0s] GEN       seq 5, accel 11.477 m/s2 (100 samples)
+[ 114.1s] SENT      seq 5 via 0
+[ 121.0s] STATUS    parent 0, hop 1 | created 6, sent 6, relayed 0, no route 0 | received count 36, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -90 (avg -90.0), heard 10s ago
+             neighbor 5: hop 1, parent 0, rssi -84 (avg -84.0), heard 8s ago
+             neighbor 7: hop 1, parent 0, rssi -83 (avg -82.8), heard 9s ago
+             neighbor 9: hop 2, parent 4, rssi -85 (avg -87.8), heard 2s ago
+[ 124.5s] GEN       seq 6, accel 11.478 m/s2 (100 samples)
+[ 124.6s] SENT      seq 6 via 0
+[ 126.0s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 126.1s] ROUTE     changed: parent 0 -> 7, hop 2, rssi -82.8 | reason: old parent lost (expired [0])
+[ 126.4s] NEIGHBOR  0 appeared: hop 0, rssi -84
+[ 126.5s] ROUTE     changed: parent 7 -> 0, hop 1, rssi -84.0 | reason: shorter route (adv from 0)
+[ 127.1s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 131.0s] STATUS    parent 0, hop 1 | created 7, sent 7, relayed 0, no route 0 | received count 40, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -84 (avg -84.0), heard 4s ago
+             neighbor 5: hop 1, parent 0, rssi -85 (avg -84.7), heard 2s ago
+             neighbor 9: hop 2, parent 4, rssi -85 (avg -87.0), heard 6s ago
+[ 132.6s] NEIGHBOR  7 appeared: hop 2, rssi -81
+[ 135.0s] GEN       seq 7, accel 11.477 m/s2 (100 samples)
+[ 135.1s] SENT      seq 7 via 0
+[ 139.8s] NEIGHBOR  9 lost (no advertisement for 15 s)
+[ 141.0s] STATUS    parent 0, hop 1 | created 8, sent 8, relayed 0, no route 0 | received count 42, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -84 (avg -84.0), heard 14s ago
+             neighbor 5: hop 1, parent 0, rssi -86 (avg -85.1), heard 2s ago
+             neighbor 7: hop 2, parent 4, rssi -81 (avg -81.0), heard 8s ago
+[ 141.9s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 141.9s] ROUTE     changed: parent 0 -> 5, hop 2, rssi -85.1 | reason: old parent lost (expired [0])
+[ 145.3s] GEN       seq 8, accel 11.480 m/s2 (100 samples)
+[ 145.4s] SENT      seq 8 via 5
+[ 148.1s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 148.2s] NEIGHBOR  7 appeared: hop 3, rssi -82
+[ 151.0s] STATUS    parent 5, hop 2 | created 9, sent 9, relayed 0, no route 0 | received count 44, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -87 (avg -85.7), heard 7s ago
+             neighbor 7: hop 3, parent 6, rssi -82 (avg -82.0), heard 2s ago
+[ 153.2s] NEIGHBOR  0 appeared: hop 0, rssi -89
+[ 153.2s] ROUTE     changed: parent 5 -> 0, hop 1, rssi -89.0 | reason: shorter route (adv from 0)
+[ 155.6s] GEN       seq 9, accel 11.481 m/s2 (100 samples)
+[ 155.7s] SENT      seq 9 via 0
+[ 157.0s] RELAYED   origin 8 seq 9 via 0
+[ 158.7s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 159.0s] NEIGHBOR  6 appeared: hop 2, rssi -89
+[ 161.1s] STATUS    parent 0, hop 1 | created 10, sent 10, relayed 1, no route 0 | received count 47, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -89 (avg -89.0), heard 7s ago
+             neighbor 6: hop 2, parent 7, rssi -89 (avg -89.0), heard 2s ago
+             neighbor 7: hop 3, parent 6, rssi -82 (avg -82.0), heard 12s ago
+[ 164.0s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 164.6s] NEIGHBOR  5 appeared: hop 1, rssi -81
+[ 166.0s] GEN       seq 10, accel 11.481 m/s2 (100 samples)
+[ 166.1s] SENT      seq 10 via 0
+[ 169.2s] NEIGHBOR  7 appeared: hop 1, rssi -83
+[ 171.1s] STATUS    parent 0, hop 1 | created 11, sent 11, relayed 1, no route 0 | received count 51, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -90 (avg -89.3), heard 7s ago
+             neighbor 5: hop 1, parent 0, rssi -85 (avg -82.2), heard 1s ago
+             neighbor 6: hop 2, parent 7, rssi -89 (avg -89.0), heard 12s ago
+             neighbor 7: hop 1, parent 0, rssi -83 (avg -83.0), heard 1s ago
+[ 174.7s] NEIGHBOR  6 lost (no advertisement for 15 s)
+[ 176.9s] GEN       seq 11, accel 11.479 m/s2 (100 samples)
+[ 177.0s] SENT      seq 11 via 0
+[ 179.8s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 179.9s] ROUTE     changed: parent 0 -> 5, hop 2, rssi -82.2 | reason: old parent lost (expired [0])
+[ 181.2s] STATUS    parent 5, hop 2 | created 12, sent 12, relayed 1, no route 0 | received count 52, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -90 (avg -84.5), heard 1s ago
+             neighbor 7: hop 1, parent 0, rssi -83 (avg -83.0), heard 11s ago
+[ 185.1s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 188.1s] GEN       seq 12, accel 11.476 m/s2 (100 samples)
+[ 188.2s] SENT      seq 12 via 5
+[ 191.3s] STATUS    parent 5, hop 2 | created 13, sent 13, relayed 1, no route 0 | received count 53, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -84 (avg -84.4), heard 5s ago
+[ 199.0s] GEN       seq 13, accel 11.479 m/s2 (100 samples)
+[ 199.1s] SENT      seq 13 via 5
+[ 201.3s] STATUS    parent 5, hop 2 | created 14, sent 14, relayed 1, no route 0 | received count 53, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -84 (avg -84.4), heard 15s ago
+[ 201.9s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 202.0s] ROUTE     changed: parent 5 -> 255, hop 255, rssi 0.0 | reason: no candidates (expired [5])
+[ 202.2s] NEIGHBOR  0 appeared: hop 0, rssi -87
+[ 202.4s] ROUTE     changed: parent 255 -> 0, hop 1, rssi -87.0 | reason: first parent (adv from 0)
+[ 209.3s] GEN       seq 14, accel 11.482 m/s2 (100 samples)
+[ 209.4s] SENT      seq 14 via 0
+[ 211.4s] STATUS    parent 0, hop 1 | created 15, sent 15, relayed 1, no route 0 | received count 54, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -87 (avg -87.0), heard 9s ago
+[ 216.9s] NEIGHBOR  5 appeared: hop 1, rssi -86
+[ 219.0s] RELAYED   origin 12 seq 15 via 0
+[ 219.9s] RELAYED   origin 7 seq 16 via 0
+[ 220.2s] GEN       seq 15, accel 11.482 m/s2 (100 samples)
+[ 220.3s] SENT      seq 15 via 0
+[ 220.4s] RELAYED   origin 10 seq 15 via 0
+[ 221.5s] STATUS    parent 0, hop 1 | created 16, sent 16, relayed 4, no route 0 | received count 60, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -85 (avg -86.6), heard 3s ago
+             neighbor 5: hop 1, parent 0, rssi -86 (avg -86.0), heard 4s ago
+[ 230.6s] GEN       seq 16, accel 11.484 m/s2 (100 samples)
+[ 230.7s] SENT      seq 16 via 0
+[ 231.5s] STATUS    parent 0, hop 1 | created 17, sent 17, relayed 4, no route 0 | received count 61, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -84 (avg -85.8), heard 8s ago
+             neighbor 5: hop 1, parent 0, rssi -86 (avg -86.0), heard 14s ago
+[ 232.0s] NEIGHBOR  7 appeared: hop 2, rssi -84
+[ 232.1s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 236.5s] RELAYED   origin 9 seq 17 via 0
+[ 238.3s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 238.4s] ROUTE     changed: parent 0 -> 255, hop 255, rssi 0.0 | reason: no candidates (expired [0])
+[ 241.4s] GEN       seq 17, accel 11.477 m/s2 (100 samples)
+[ 241.5s] LOST      seq 17, no route
+[ 241.6s] STATUS    parent 255, hop 255 | created 18, sent 17, relayed 5, no route 1 | received count 63, bad 0, duplicates 0
+             neighbor 7: hop 2, parent 4, rssi -84 (avg -84.0), heard 9s ago
+[ 242.8s] ROUTE     changed: parent 255 -> 7, hop 4, rssi -84.6 | reason: first parent (adv from 7)
+[ 248.4s] NEIGHBOR  5 appeared: hop 1, rssi -85
+[ 248.4s] ROUTE     changed: parent 7 -> 5, hop 2, rssi -85.0 | reason: shorter route (adv from 5)
+[ 251.5s] GEN       seq 18, accel 11.481 m/s2 (100 samples)
+[ 252.5s] STATUS    parent 5, hop 2 | created 19, sent 17, relayed 5, no route 1 | received count 65, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -85 (avg -85.0), heard 4s ago
+             neighbor 7: hop 3, parent 6, rssi -86 (avg -84.6), heard 9s ago
+[ 252.7s] SENT      seq 18 via 5
+[ 258.7s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 258.8s] NEIGHBOR  7 appeared: hop 2, rssi -81
+[ 258.9s] RELAYED   origin 13 seq 18 via 5
+[ 260.8s] NEIGHBOR  0 appeared: hop 0, rssi -86
+[ 260.8s] ROUTE     changed: parent 5 -> 0, hop 1, rssi -86.0 | reason: shorter route (adv from 0)
+[ 262.2s] GEN       seq 19, accel 11.479 m/s2 (100 samples)
+[ 262.3s] SENT      seq 19 via 0
+[ 262.5s] STATUS    parent 0, hop 1 | created 20, sent 19, relayed 6, no route 1 | received count 69, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -86 (avg -86.0), heard 1s ago
+             neighbor 5: hop 1, parent 0, rssi -86 (avg -85.3), heard 8s ago
+             neighbor 7: hop 2, parent 5, rssi -81 (avg -81.0), heard 3s ago
+[ 269.2s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 272.6s] STATUS    parent 0, hop 1 | created 20, sent 19, relayed 6, no route 1 | received count 70, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -90 (avg -87.2), heard 6s ago
+             neighbor 7: hop 2, parent 5, rssi -81 (avg -81.0), heard 13s ago
+[ 272.9s] GEN       seq 20, accel 11.476 m/s2 (100 samples)
+[ 273.1s] SENT      seq 20 via 0
+[ 274.4s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 281.6s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 281.7s] ROUTE     changed: parent 0 -> 255, hop 255, rssi 0.0 | reason: no candidates (expired [0])
+[ 282.7s] STATUS    parent 255, hop 255 | created 21, sent 20, relayed 6, no route 1 | received count 70, bad 0, duplicates 0
+[ 283.1s] GEN       seq 21, accel 11.474 m/s2 (100 samples)
+[ 283.3s] LOST      seq 21, no route
+[ 285.2s] NEIGHBOR  7 appeared: hop 1, rssi -84
+[ 285.3s] ROUTE     changed: parent 255 -> 7, hop 2, rssi -84.0 | reason: first parent (adv from 7)
+[ 285.7s] NEIGHBOR  5 appeared: hop 1, rssi -84
+[ 286.6s] NEIGHBOR  6 appeared: hop 2, rssi -90
+[ 287.8s] RELAYED   origin 9 seq 22 via 7
+[ 292.7s] STATUS    parent 7, hop 2 | created 22, sent 20, relayed 7, no route 2 | received count 75, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -84 (avg -84.0), heard 6s ago
+             neighbor 6: hop 2, parent 7, rssi -90 (avg -90.0), heard 6s ago
+             neighbor 7: hop 1, parent 0, rssi -81 (avg -83.1), heard 2s ago
+[ 293.4s] NEIGHBOR  0 appeared: hop 0, rssi -87
+[ 293.5s] ROUTE     changed: parent 7 -> 0, hop 1, rssi -87.0 | reason: shorter route (adv from 0)
+[ 294.1s] GEN       seq 22, accel 11.475 m/s2 (100 samples)
+[ 294.2s] SENT      seq 22 via 0
+[ 302.4s] NEIGHBOR  6 lost (no advertisement for 15 s)
+[ 302.8s] STATUS    parent 0, hop 1 | created 23, sent 21, relayed 7, no route 2 | received count 77, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -87 (avg -87.0), heard 9s ago
+             neighbor 5: hop 1, parent 0, rssi -84 (avg -84.0), heard 6s ago
+             neighbor 7: hop 1, parent 0, rssi -81 (avg -83.1), heard 12s ago
+[ 304.5s] GEN       seq 23, accel 11.479 m/s2 (100 samples)
+[ 304.6s] SENT      seq 23 via 0
+[ 305.8s] RELAYED   origin 7 seq 24 via 0
+[ 306.2s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 309.3s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 309.4s] ROUTE     changed: parent 0 -> 5, hop 2, rssi -84.0 | reason: old parent lost (expired [0])
+[ 312.4s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 312.4s] ROUTE     changed: parent 5 -> 255, hop 255, rssi 0.0 | reason: no candidates (expired [5])
+[ 312.8s] STATUS    parent 255, hop 255 | created 24, sent 22, relayed 8, no route 2 | received count 78, bad 0, duplicates 0
+[ 314.7s] GEN       seq 24, accel 11.471 m/s2 (100 samples)
+[ 314.8s] LOST      seq 24, no route
+[ 322.3s] NEIGHBOR  7 appeared: hop 3, rssi -86
+[ 322.4s] ROUTE     changed: parent 255 -> 7, hop 4, rssi -86.0 | reason: first parent (adv from 7)
+[ 322.8s] STATUS    parent 7, hop 4 | created 25, sent 22, relayed 8, no route 3 | received count 79, bad 0, duplicates 0
+             neighbor 7: hop 3, parent 9, rssi -86 (avg -86.0), heard 0s ago
+[ 323.5s] NEIGHBOR  9 appeared: hop 4, rssi -80
+[ 324.9s] NEIGHBOR  0 appeared: hop 0, rssi -86
+[ 325.0s] ROUTE     changed: parent 7 -> 0, hop 1, rssi -86.0 | reason: shorter route (adv from 0)
+[ 325.4s] GEN       seq 25, accel 11.478 m/s2 (100 samples)
+[ 325.5s] SENT      seq 25 via 0
+[ 332.9s] STATUS    parent 0, hop 1 | created 26, sent 23, relayed 8, no route 3 | received count 82, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -86 (avg -86.0), heard 8s ago
+             neighbor 7: hop 4, parent 8, rssi -77 (avg -83.3), heard 5s ago
+             neighbor 9: hop 4, parent 7, rssi -80 (avg -80.0), heard 9s ago
+[ 336.4s] GEN       seq 26, accel 11.476 m/s2 (100 samples)
+[ 336.5s] SENT      seq 26 via 0
+[ 339.5s] NEIGHBOR  9 lost (no advertisement for 15 s)
+[ 340.5s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 340.6s] ROUTE     changed: parent 0 -> 7, hop 5, rssi -84.4 | reason: old parent lost (expired [0])
+[ 342.9s] STATUS    parent 7, hop 5 | created 27, sent 24, relayed 8, no route 3 | received count 83, bad 0, duplicates 0
+             neighbor 7: hop 4, parent 8, rssi -87 (avg -84.4), heard 9s ago
+[ 344.3s] NEIGHBOR  6 appeared: hop 1, rssi -87
+[ 344.4s] ROUTE     changed: parent 7 -> 6, hop 2, rssi -87.0 | reason: shorter route (adv from 6)
+[ 345.6s] NEIGHBOR  0 appeared: hop 0, rssi -88
+[ 345.7s] ROUTE     changed: parent 6 -> 0, hop 1, rssi -88.0 | reason: shorter route (adv from 0)
+[ 346.4s] GEN       seq 27, accel 11.477 m/s2 (100 samples)
+[ 346.6s] SENT      seq 27 via 0
+[ 349.0s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 349.5s] RELAYED   origin 9 seq 28 via 0
+[ 352.9s] STATUS    parent 0, hop 1 | created 28, sent 25, relayed 9, no route 3 | received count 86, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -88 (avg -88.0), heard 7s ago
+             neighbor 6: hop 1, parent 0, rssi -87 (avg -87.0), heard 8s ago
+[ 354.3s] NEIGHBOR  7 appeared: hop 2, rssi -81
+[ 357.3s] GEN       seq 28, accel 11.475 m/s2 (100 samples)
+[ 357.5s] SENT      seq 28 via 0
+[ 360.3s] NEIGHBOR  6 lost (no advertisement for 15 s)
+[ 361.4s] ROUTE     changed: parent 0 -> 7, hop 3, rssi -81.9 | reason: old parent lost (adv from 0)
+[ 361.9s] RELAYED   origin 6 seq 24 via 7
+[ 363.0s] STATUS    parent 7, hop 3 | created 29, sent 26, relayed 10, no route 3 | received count 90, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -95 (avg -90.1), heard 1s ago
+             neighbor 7: hop 2, parent 6, rssi -84 (avg -81.9), heard 3s ago
+[ 365.3s] SENSOR    measurement window over, no more packets
+[ 365.6s] NEIGHBOR  9 appeared: hop 3, rssi -82
+[ 373.0s] STATUS    parent 7, hop 3 | created 29, sent 26, relayed 10, no route 3 | received count 92, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -95 (avg -90.1), heard 11s ago
+             neighbor 7: hop 2, parent 6, rssi -84 (avg -81.9), heard 13s ago
+             neighbor 9: hop 2, parent 7, rssi -82 (avg -82.0), heard 2s ago
+[ 375.0s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 375.1s] ROUTE     changed: parent 7 -> 9, hop 3, rssi -82.0 | reason: old parent lost (expired [7])
+[ 375.2s] NEIGHBOR  7 appeared: hop 1, rssi -86
+[ 375.3s] ROUTE     changed: parent 9 -> 7, hop 2, rssi -86.0 | reason: shorter route (adv from 7)
+[ 377.1s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 378.1s] NEIGHBOR  5 appeared: hop 1, rssi -85
+[ 383.1s] STATUS    parent 7, hop 2 | created 29, sent 26, relayed 10, no route 3 | received count 94, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -85 (avg -85.0), heard 4s ago
+             neighbor 7: hop 1, parent 0, rssi -86 (avg -86.0), heard 7s ago
+             neighbor 9: hop 2, parent 7, rssi -82 (avg -82.0), heard 12s ago
+[ 386.5s] NEIGHBOR  9 lost (no advertisement for 15 s)
+[ 386.9s] NEIGHBOR  6 appeared: hop 1, rssi -90
+[ 390.6s] NEIGHBOR  7 lost (no advertisement for 15 s)
+[ 390.6s] ROUTE     changed: parent 7 -> 5, hop 2, rssi -84.1 | reason: old parent lost (expired [7])
+[ 391.8s] NEIGHBOR  9 appeared: hop 3, rssi -84
+[ 393.1s] STATUS    parent 5, hop 2 | created 29, sent 26, relayed 10, no route 3 | received count 97, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -82 (avg -84.1), heard 9s ago
+             neighbor 6: hop 1, parent 0, rssi -90 (avg -90.0), heard 6s ago
+             neighbor 9: hop 3, parent 7, rssi -84 (avg -84.0), heard 1s ago
+[ 398.8s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 398.9s] ROUTE     changed: parent 5 -> 6, hop 2, rssi -90.0 | reason: old parent lost (expired [5])
+[ 399.2s] NEIGHBOR  5 appeared: hop 1, rssi -88
+[ 401.9s] NEIGHBOR  6 lost (no advertisement for 15 s)
+[ 402.0s] ROUTE     changed: parent 6 -> 5, hop 2, rssi -88.0 | reason: old parent lost (expired [6])
+[ 402.9s] NEIGHBOR  6 appeared: hop 1, rssi -87
+[ 403.2s] STATUS    parent 5, hop 2 | created 29, sent 26, relayed 10, no route 3 | received count 100, bad 0, duplicates 0
+             neighbor 5: hop 1, parent 0, rssi -88 (avg -88.0), heard 4s ago
+             neighbor 6: hop 1, parent 0, rssi -87 (avg -87.0), heard 0s ago
+             neighbor 9: hop 3, parent 7, rssi -90 (avg -85.8), heard 5s ago
+[ 403.6s] NEIGHBOR  0 appeared: hop 0, rssi -87
+[ 403.7s] ROUTE     changed: parent 5 -> 0, hop 1, rssi -87.0 | reason: shorter route (adv from 0)
+[ 411.8s] NEIGHBOR  7 appeared: hop 1, rssi -85
+[ 413.3s] STATUS    parent 0, hop 1 | created 29, sent 26, relayed 10, no route 3 | received count 104, bad 0, duplicates 0
+             neighbor 0: hop 0, parent 0, rssi -87 (avg -87.0), heard 9s ago
+             neighbor 5: hop 1, parent 0, rssi -88 (avg -88.0), heard 14s ago
+             neighbor 6: hop 1, parent 0, rssi -85 (avg -86.4), heard 5s ago
+             neighbor 7: hop 1, parent 0, rssi -85 (avg -85.0), heard 1s ago
+             neighbor 9: hop 3, parent 8, rssi -85 (avg -85.6), heard 5s ago
+[ 415.0s] NEIGHBOR  5 lost (no advertisement for 15 s)
+[ 419.1s] NEIGHBOR  0 lost (no advertisement for 15 s)
+[ 419.2s] ROUTE     changed: parent 0 -> 7, hop 2, rssi -85.0 | reason: old parent lost (expired [0])
+[ 420.2s] SUMMARY   written
+[ 422.4s] ROUTE     changed: parent 7 -> 6, hop 2, rssi -86.4 | reason: shorter route (adv from 7)
+[ 423.2s] NEIGHBOR  6 lost (no advertisement for 15 s)
+[ 423.3s] NEIGHBOR  9 lost (no advertisement for 15 s)
+[ 423.3s] ROUTE     changed: parent 6 -> 7, hop 3, rssi -85.9 | reason: old parent lost (expired [6, 9])
+[ 423.6s] STATUS    parent 7, hop 3 | created 29, sent 26, relayed 10, no route 3 | received count 105, bad 0, duplicates 0
+             neighbor 7: hop 2, parent 6, rssi -88 (avg -85.9), heard 1s ago
+[ 425.1s] NEIGHBOR  0 appeared: hop 0, rssi -90
+[ 425.2s] ROUTE     changed: parent 7 -> 0, hop 1, rssi -90.0 | reason: shorter route (adv from 0)
+[ 431.1s] NEIGHBOR  5 appeared: hop 1, rssi -85
